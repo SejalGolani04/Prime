@@ -1,0 +1,21 @@
+ARGS:-
+def Function(*argv):
+    for arg in argv:
+        print(arg)
+ 
+ 
+Function('Hello', 'Welcome', 'to', 'GeeksforGeeks')
+
+
+
+KWARGS:-
+ def Function(**kwargs):
+    for key, value in kwargs.items():
+        print("%s == %s" % (key, value))
+ 
+ 
+# Driver code
+Function(first='Geeks', mid='for', last='Geeks')
+
+
+
